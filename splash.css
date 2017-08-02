@@ -1,0 +1,162 @@
+/*Background*/
+
+html { 
+	background: #063258;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Bitter', serif;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: normal;
+}
+
+/*Page Structure*/
+
+#body {
+	margin-left: 0px;
+}
+
+.main {
+	max-width: 800px;
+	margin: auto;
+	padding: 3em 1em;
+}
+
+.content {
+	max-width: 700px;
+	margin: auto;
+}
+
+.footer {
+	margin-top: 50px;
+}
+			
+/*Images*/
+
+
+/*Type & Link Styling*/
+
+h2 {
+	font-family: 'Yantramanav', sans-serif;
+	color: #EE5D77;
+	font-size: 24px;
+	font-weight: 900;
+	margin-top: 2em;
+	line-height: 1.2em;
+}
+
+p {
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+p.columns {
+	-moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.focus {
+	color: #EECB4D;
+}
+
+ol {
+	font-size: .8em;
+	padding-left: 0;
+}
+
+li {
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+			
+a {
+	text-decoration: none;
+	border-bottom: 2px solid #EECB4D;
+	color: #FFFFFF;
+}
+
+			
+a:hover {
+	color: #EECB4D;
+	border-bottom: none;
+}
+
+::selection {
+	background: #000000;
+}
+
+p::selection {
+	color: #FFFFFF;
+}
+
+a::selection {
+	color: #FFFFFF;
+}
+
+/*Resposive-bility*/
+
+/*Tablet*/
+@media only screen and (max-width: 680px), only screen and (max-device-width: 680px) {
+
+.main {
+	padding: .75em .75em;
+}
+
+.face {
+	margin: auto;
+	float: none;
+	width: 100px;
+	height: 129px;
+	background-size: 100%;
+	margin-bottom: .5em;
+}
+
+.content {
+	float: none;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.twit {
+	margin-right: 0;
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+html {
+	font-size: 1.4em;
+	line-height: 1.6em;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+p {
+	font-size: .9em;
+}
+
+ul {
+	font-size: .8em;
+}
+
+p.columns {
+	-moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+}
+
+}
